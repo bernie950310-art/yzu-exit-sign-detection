@@ -1,0 +1,12 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['exit_sign']
+
+roboflow:
+  workspace: s-workspace-p1dor
+  project: find-exit-sign
+  version: 1
+  license: Public Domain
